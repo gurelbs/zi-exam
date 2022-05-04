@@ -1,0 +1,3 @@
+<h1>Magicians List</h1>
+<app-magicians-filter (filter)="fetchFiltered($event)"></app-magicians-filter>
+<app-magicians-table *ngIf="magicians" [magicians]="magicians | async"></app-magicians-table>

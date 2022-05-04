@@ -1,0 +1,13 @@
+<header>
+  <span>
+    <a href="/">
+      <img src="assets/logo.png" alt="logo">
+    </a>
+  </span>
+  <span class="space"></span>
+  <span *ngIf="logged">
+    <button (click)="auth.logout()">Logout</button>
+  </span>
+</header>
+
+

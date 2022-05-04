@@ -1,0 +1,7 @@
+form {
+  display: block;
+  background-color: cornflowerblue;
+  box-shadow: .2em .2em .5em #999999;
+  border-radius: .2em;
+  padding: .5em;
+}

@@ -1,0 +1,15 @@
+article {
+  padding: 1em 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+a {
+  flex: 1;
+  height: 100px;
+  width: 100px;
+  margin: 0 1em 1em 0;
+  line-height: 100px;
+  text-align: center;
+  background-color: cornflowerblue;
+}

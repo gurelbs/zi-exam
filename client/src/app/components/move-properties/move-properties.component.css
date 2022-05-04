@@ -1,0 +1,8 @@
+.properties {
+  display: flex;
+}
+.properties section {
+  margin: 0 .5em;
+  /*border: 1px solid black;*/
+}
+

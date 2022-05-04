@@ -1,0 +1,16 @@
+header {
+  height: 60px;
+  line-height: 60px;
+  padding: 0 1em;
+  display: flex;
+
+  box-shadow: .2em .2em .5em #AAAAAA;
+}
+
+header img {
+  height: 50px;
+}
+
+.space {
+  flex: auto;
+}

@@ -1,0 +1,14 @@
+<div>
+  <span>Sort by</span>
+  <select name="by" [(ngModel)]="filterData.by">
+    <option value="name">Name</option>
+    <option value="house">House</option>
+  </select>
+  <span>direction</span>
+  <select name="direction" [(ngModel)]="filterData.direction">
+    <option value="up">Up</option>
+    <option value="down">Down</option>
+  </select>
+  <button (click)="filter.emit(filterData)">Filter</button>
+  <button (click)="reset()">Reset</button>
+</div>

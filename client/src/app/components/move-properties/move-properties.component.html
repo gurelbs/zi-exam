@@ -1,0 +1,17 @@
+<div class="properties">
+  <section>
+    <div *ngFor="let s of a">
+      <input type="checkbox" [value]="s">{{s}}
+    </div>
+  </section>
+  <section>
+    <button (click)="atob()">&gt;</button>
+    <br/>
+    <button (click)="btoa()">&lt;</button>
+  </section>
+  <section>
+    <div *ngFor="let s of b">
+      <input type="checkbox" [value]="s">{{s}}
+    </div>
+  </section>
+</div>

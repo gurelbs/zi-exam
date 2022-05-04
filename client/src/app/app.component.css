@@ -1,0 +1,11 @@
+article {
+  height: calc(100vh - 120px);
+  padding: 1em;
+}
+
+footer {
+  height: 60px;
+  line-height: 60px;
+  padding: 0 1em;
+  background-color: #EEEEEE;
+}

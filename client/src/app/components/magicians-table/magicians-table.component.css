@@ -1,0 +1,13 @@
+td, th {
+  padding: .5em;
+  border: 1px solid lightgrey;
+  border-collapse: collapse;
+}
+
+td {
+  background-color: white;
+}
+
+th {
+  background-color: cornflowerblue;
+}

@@ -1,0 +1,12 @@
+<table aria-label="table">
+  <tr>
+    <th scope="col">Name</th>
+    <th scope="col">House</th>
+    <th scope="col">Power</th>
+  </tr>
+  <tr *ngFor="let m of magicians">
+    <td>{{m.name}}</td>
+    <td>{{m.house}}</td>
+    <td>{{m.power}}</td>
+  </tr>
+</table>
